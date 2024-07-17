@@ -66,7 +66,7 @@ async function ScrapeMedium(req,res) {
         return res.status(200).json({ success: "True", articles });
       } catch (err) {
         console.log(err);
-        res.status(400).json({success:'Flase'})
+        res.status(400).json({success:'Flase' , error:err})
       }
     }
 
