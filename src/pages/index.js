@@ -5,7 +5,7 @@ import NavBar from "../../Components/NavBar/NavBar";
 import '../styles/index.css';
 
 
-function index() {
+function Index() {
     const [articles, setArticles] = useState([]);
   return (
     <div className="main-container">
@@ -18,4 +18,4 @@ function index() {
   )
 }
 
-export default index
+export default Index
