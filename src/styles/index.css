@@ -1,0 +1,8 @@
+.main-container {
+    background: linear-gradient(to bottom, #808383, #9da17d); /* Adjust colors as needed */
+    min-height: 100svh;
+}
+
+.c-wrapper{
+    padding: 0 30px;
+}

@@ -1,0 +1,100 @@
+.InputForm-wrapper {
+    padding: 20px;
+    border-bottom: 3px solid rgba(92, 90, 90, 0.713);
+}
+
+.InputForm-wrapper h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    margin-bottom: 10px;
+    color: #d8d6d6;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputForm-wrapper input[type="text"]::placeholder {
+    font-size: 20px;
+    /* Adjust the font size as per your design */
+    text-align: center;
+}
+
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-container input[type="text"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    padding-right: 45px; /* Add padding to the right for the button */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    text-align: center;
+}
+
+.input-container input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.input-container input[type="text"]::placeholder {
+    font-size: 1rem;
+    color: #888;
+
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.search-button:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .InputForm-wrapper h1 {
+        font-size: 2.1rem;
+    }
+
+    .input-container input[type="text"] {
+        font-size: 1.2rem;
+    }
+
+    .search-button {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .InputForm-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .input-container input[type="text"] {
+        font-size: 1.2rem;
+    }
+
+    .search-button {
+        font-size: 1.2rem;
+    }
+}
